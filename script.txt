@@ -1,0 +1,30 @@
+CREATE DATABASE CRUD;
+
+USE CRUD;
+
+CREATE TABLE `persona` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `apellido` varchar(60) NOT NULL,
+  `edad` int NOT NULL,
+  `nombre` varchar(60) NOT NULL,
+  PRIMARY KEY (`id`));
+
+INSERT INTO `persona` VALUES (1,'Redfield',25,'Chris'),
+					(2,'Redfield',19,'Claire'),
+					(3,'Scott Kennedy',23,'Leon'),
+					(4,'DeathReaper',30,'Hunk'),
+					(5,'Edelsberg',25,'Titin'),
+					(6,'Bunny',25,'Lothar'),
+					(7,'Vieytes',26,'Jean'),
+					(8,'Vieytes',17,'Javier'),
+					(9,'Wesker',30,'Albert'),
+					(10,'Trevor',19,'Lisa'),
+					(11,'Valentine',23,'Jill'),
+					(12,'Chambers',26,'Rebecca'),
+					(13,'Wong',29,'Ada'),
+					(14,'Wesker',30,'Alex'),
+					(15,'Wesker',35,'Billie'),
+					(16,'Ashford',28,'Angela'),
+					(17,'Birkin',23,'Annette'),
+					(18,'Birkin',29,'William'),
+					(19,'Birkin',21,'Sherry');
